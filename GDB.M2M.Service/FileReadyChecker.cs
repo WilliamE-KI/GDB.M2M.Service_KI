@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.IO;
 using System.Threading;
-
+//Test kommentar
 namespace GDB.M2M.Service
 {
 	public interface IFileReadyChecker
