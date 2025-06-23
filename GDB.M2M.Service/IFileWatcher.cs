@@ -4,6 +4,12 @@ using GDB.M2M.Service.Configurations;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
+/*
+FileWatcher ÄR ETT KOMPONENT I ETT SYSTEM SOM ÖVERVAKAR EN MAPP (KATALOG) PÅ 
+FILSYSTEMET. NÄR EN FIL SKAPAS I MAPPEN, KONTROLLERA DEN OM FILEN ÄR "REDO" 
+ATT ANVÄNDAS OCH OM SÅ ÄR FALLET, GENERAR DEN ETT OBJEKT MED INFROMATION OM FILEN OCH SKICKAR UT
+*/
+
 namespace GDB.M2M.Service
 {
     public interface IFileWatcher
